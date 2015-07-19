@@ -1,0 +1,7 @@
+(compile -s -O3 -d1 stb-image.scm -j stb-image)
+(compile -s stb-image.import.scm -O3 -d0)
+
+(install-extension
+  'stb-image
+  '("stb-image.so" "stb-image.import.so")
+  '((version "1.0")))

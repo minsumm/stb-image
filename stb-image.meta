@@ -1,0 +1,6 @@
+(
+  (synopsis "Wrapper for stb_image")
+  (license "Public Domain")
+  (category graphics)
+  (author "Mikko Vanhatalo <mv@exilis.xyz>")
+)
